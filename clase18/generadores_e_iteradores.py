@@ -56,7 +56,7 @@ def generador():
 #     print(numero)
 
 #Ejemplo de generador para crear la serie de fibonacci
-def fibonacci(limite: int) -> int:
+def fibonacci(limite):
     """
     Genera la secuencia de Fibonacci hasta el límite especificado.
     Args:
@@ -74,7 +74,7 @@ for numero in fibonacci(30):
     print(numero)
 
 #Test: Crear un generador para obtener los numeros pares e impares
-def pares_impares(limite: int) -> int:
+def pares_impares(limite):
     """
     Genera los números pares e impares hasta el límite especificado.
     Args:
