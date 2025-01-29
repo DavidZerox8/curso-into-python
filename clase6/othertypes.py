@@ -46,3 +46,9 @@ a = 1 + 2j
 b = 2 + 3j
 c = 3 + 4j
 print(type(a))
+
+#Tuple
+a = (1, 2, 3, 4)
+print(a)
+print(type(a))
+
